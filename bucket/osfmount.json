@@ -1,0 +1,18 @@
+{
+    "version": "3.1.1003",
+    "description": "OSFMount allows you to mount local disk image files (bit-for-bit copies of an entire disk or disk partition) in Windows as a physical disk or a logical drive letter. You can then analyze the disk image file with PassMark OSForensics™ by using the physical disk name (eg. \.\PhysicalDrive1) or logical drive letter (eg. Z:).",
+    "license": "BSD-3-Clause",
+    "url": "https://www.osforensics.com/downloads/osfmount.exe",
+    "bin": "OSFMount.exe",
+    "homepage": "https://www.osforensics.com/tools/mount-disk-images.html",
+    "checkver": {
+        "regex": "OSFMount V([\\d.]+) installation package"
+    },
+    "shortcuts": [
+        [
+            "OSFMount.exe",
+            "OSFMount"
+        ]
+    ],
+    "copyright": "Copyright (C) PassMark Software"
+}
