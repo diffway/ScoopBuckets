@@ -1,0 +1,37 @@
+{
+    "version": "5.0.2.1",
+    "homepage": "https://www.mdtzone.it/sw/wincontig/en/index.html",
+    "description": "The free file defragmentation tool specifically designed to defrag single files or entire folders without the need to defrag the whole disk.",
+    "license": "Freeware",
+    "url": "http://www.mdtzone.it/Files/WContig.zip",
+    "hash": "sha256:0998aad87d68ba15f9c7ed8408622a1dc20ee77dd793e5d6c3b20eabf7636b0c",
+
+    "checkver": {
+        "regex": "Version\\s([\\d.]+)"
+    },
+    "architecture": {
+        "64bit": {
+            "bin": "WinContig.exe",
+            "hash": "sha256:8dfe9eaf94ee11fd8a0b5b584103f9efc14bda6c26ed3eb2c554e3b7f48e82e0"
+            "shortcuts": [
+                [
+                    "WinContig.exe",
+                    "Windows Defrag Tool"
+                ]
+            ],
+        },
+        "32bit": {
+            "bin": "WinContig32.exe",
+            "hash": "sha256:845d4608079d3bdf441437d4b60432ac42a0f6e28002bcce40b9f2297d920011"
+            "shortcuts": [
+                [
+                    "WinContig32.exe",
+                    "Windows Defrag Tool"
+                ]
+            ],
+        }
+    },
+    "persist": [
+        "Lang"
+    ]
+}
