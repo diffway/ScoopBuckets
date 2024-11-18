@@ -12,7 +12,6 @@
     "architecture": {
         "64bit": {
             "bin": "WinContig.exe",
-            "hash": "sha256:8dfe9eaf94ee11fd8a0b5b584103f9efc14bda6c26ed3eb2c554e3b7f48e82e0",
             "shortcuts": [
                 [
                     "WinContig.exe",
@@ -22,7 +21,6 @@
         },
         "32bit": {
             "bin": "WinContig32.exe",
-            "hash": "sha256:845d4608079d3bdf441437d4b60432ac42a0f6e28002bcce40b9f2297d920011",
             "shortcuts": [
                 [
                     "WinContig32.exe",
