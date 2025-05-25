@@ -18,12 +18,5 @@
         "url": "https://loxx.app/changelog/",
         "regex": "portable:\\sloxx_([\\d.]+)",
         "reverse": true
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://loxx.app/wp-content/uploads/loxx_$version.zip",
-            }
-        }
     }
 }
