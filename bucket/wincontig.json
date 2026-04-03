@@ -1,35 +1,102 @@
 {
     "version": "5.0.2.1",
-    "homepage": "https://www.mdtzone.it/sw/wincontig/en/index.html",
     "description": "The free file defragmentation tool specifically designed to defrag single files or entire folders without the need to defrag the whole disk.",
+    "homepage": "https://www.mdtzone.it/sw/wincontig/en",
     "license": "Freeware",
-    "url": "http://www.mdtzone.it/Files/WContig.zip",
+    "url": "https://www.mdtzone.it/Files/WContig_5021.zip",
     "hash": "sha256:0998aad87d68ba15f9c7ed8408622a1dc20ee77dd793e5d6c3b20eabf7636b0c",
-
-    "checkver": {
-        "regex": "Version\\s([\\d.]+)"
-    },
     "architecture": {
         "64bit": {
             "bin": "WinContig.exe",
-            "shortcuts": [
+            "shortcuts": {
                 [
                     "WinContig.exe",
                     "Windows Defrag Tool"
                 ]
-            ]
+            }
         },
         "32bit": {
             "bin": "WinContig32.exe",
-            "shortcuts": [
+            "shortcuts": {
                 [
                     "WinContig32.exe",
                     "Windows Defrag Tool"
                 ]
-            ]
+            }
         }
     },
     "persist": [
         "Lang"
-    ]
+    ],
+    "autoupdate": {
+        "url": "https://www.mdtzone.it/Files/WContig_$cleanVersion.zip"
+    },
+    "checkver": {
+        "url": "https://www.mdtzone.it/sw/wincontig/en/archive.html",
+        "regex": "$basename\\sversion\\s([\\d.]+)"
+    }
+}
+
+{
+    "##": "This file is a template. Fill the blanks and add or remove fields as necessary.",
+    "version": "",
+    "description": "",
+    "homepage": "",
+    "license": "",
+    "notes": "",
+    "architecture": {
+        "64bit": {
+            "url": "",
+            "hash": ""
+        },
+        "32bit": {
+            "url": "",
+            "hash": ""
+        },
+        "arm64": {
+            "url": "",
+            "hash": ""
+        }
+    },
+    "pre_install": "",
+    "installer": {
+        "script": ""
+    },
+    "post_install": [
+        "",
+        ""
+    ],
+    "uninstaller": {
+        "script": ""
+    },
+    "bin": "",
+    "env_add_path": [
+        "",
+        ""
+    ],
+    "persist": [
+        "",
+        ""
+    ],
+    "checkver": {
+        "url": "",
+        "regex": ""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": ""
+            },
+            "32bit": {
+                "url": ""
+            },
+            "arm64": {
+                "url": ""
+            }
+        },
+        "hash": {
+            "url": "",
+            "regex": ""
+        }
+    }
 }
